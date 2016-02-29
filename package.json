@@ -1,0 +1,21 @@
+{
+  "name": "iotacss-text",
+  "version": "0.1.0",
+  "description": "Text utility for iotaCSS",
+  "main": "_utilities.text.scss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iotacss/utilities.text.git"
+  },
+  "keywords": [
+    "iotacss",
+    "css",
+    "bem",
+    "oocss"
+  ],
+  "dependencies": {
+    "iotacss-default": "0.1.0",
+    "iotacss-breakpoint": "0.1.0"
+  },
+  "author": "Dimitris Psaropoulos <info@harby.me>"
+}

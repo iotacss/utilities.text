@@ -1,0 +1,60 @@
+// Text Utilities
+
+
+
+
+// Dependencies:
+//   Settings.Default
+//   Settings.Breakpoint
+
+
+
+
+// Options
+
+$iota-text      : true;
+$iota-text--res : false !default;
+
+
+
+
+.#{$iota-utility-namespace}text-left {
+  text-align: left !important;
+}
+
+.#{$iota-utility-namespace}text-right {
+  text-align: right !important;
+}
+
+.#{$iota-utility-namespace}text-align {
+  text-align: center !important;
+}
+
+
+
+
+// Responsive Text Utilities
+
+@if ($iota-text--res == true) {
+
+  @each $name, $size in $iota-breakpoint-sizes {
+
+    @media #{$size} {
+    
+      .#{$iota-utility-namespace}text-left\@#{$name} {
+        text-align: left !important;
+      }
+
+      .#{$iota-utility-namespace}text-right\@#{$name} {
+        text-align: right !important;
+      }
+
+      .#{$iota-utility-namespace}text-center\@#{$name} {
+        text-align: center !important;
+      }
+
+    }
+
+  }
+  
+}
