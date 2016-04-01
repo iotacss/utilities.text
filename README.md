@@ -19,7 +19,7 @@ npm install --save iotacss-text
 ### Options ###
 
 ```
-$doppio-text--res : false !default;
+$iota-text--res : false !default;
 ```
 
 
