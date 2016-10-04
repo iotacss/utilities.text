@@ -19,7 +19,10 @@ npm install --save iotacss-text
 ### Options ###
 
 ```
-$iota-text--res : false !default;
+$iota-text--res             : false !default;
+$iota-text-left-namespace   : 'text-left' !default;
+$iota-text-right-namespace  : 'text-right' !default;
+$iota-text-center-namespace : 'text-center' !default;
 ```
 
 

@@ -12,21 +12,24 @@
 
 // Options
 
-$iota-text      : true;
-$iota-text--res : false !default;
+$iota-text                  : true;
+$iota-text--res             : false !default;
+$iota-text-left-namespace   : 'text-left' !default;
+$iota-text-right-namespace  : 'text-right' !default;
+$iota-text-center-namespace : 'text-center' !default;
 
 
 
 
-.#{$iota-utility-namespace}text-left {
+.#{$iota-utility-namespace}#{$iota-text-left-namespace} {
   text-align: left !important;
 }
 
-.#{$iota-utility-namespace}text-right {
+.#{$iota-utility-namespace}#{$iota-text-right-namespace} {
   text-align: right !important;
 }
 
-.#{$iota-utility-namespace}text-center {
+.#{$iota-utility-namespace}#{$iota-text-center-namespace} {
   text-align: center !important;
 }
 
@@ -41,15 +44,15 @@ $iota-text--res : false !default;
 
     @media #{$size} {
     
-      .#{$iota-utility-namespace}text-left\@#{$name} {
+      .#{$iota-utility-namespace}#{$iota-text-left-namespace}\@#{$name} {
         text-align: left !important;
       }
 
-      .#{$iota-utility-namespace}text-right\@#{$name} {
+      .#{$iota-utility-namespace}#{$iota-text-right-namespace}\@#{$name} {
         text-align: right !important;
       }
 
-      .#{$iota-utility-namespace}text-center\@#{$name} {
+      .#{$iota-utility-namespace}#{$iota-text-center-namespace}\@#{$name} {
         text-align: center !important;
       }
 
