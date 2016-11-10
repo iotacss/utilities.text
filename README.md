@@ -6,23 +6,20 @@ The align utility contains helper classes for the CSS text align property.
 ### Installation ###
 
 ```
-npm install --save iotacss-text
+npm install --save iotacss-utils-text
 ```
-
-
-### Dependencies ###
-
-* [Settings.Default](https://github.com/iotacss/settings.default)
-* [Settings.Breakpoint](https://github.com/iotacss/settings.breakpoint)
 
 
 ### Options ###
 
-```
-$iota-text--res             : false !default;
-$iota-text-left-namespace   : 'text-left' !default;
-$iota-text-right-namespace  : 'text-right' !default;
-$iota-text-center-namespace : 'text-center' !default;
+```sass
+$iota-utils-text-namespace    : 'text-' !default;
+$iota-utils-text-left-name    : 'left' !default;
+$iota-utils-text-right-name   : 'right' !default;
+$iota-utils-text-center-name  : 'center' !default;
+
+$iota-utils-text-res          : false !default;
+$iota-utils-text-breakpoints  : $iota-global-breakpoints !default;
 ```
 
 
