@@ -1,6 +1,6 @@
 # Text Utility #
 
-The align utility contains helper classes for the CSS text align property.
+The text utility contains helper classes for the CSS text-align property.
 
 
 ### Installation ###
