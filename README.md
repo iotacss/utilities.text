@@ -1,3 +1,5 @@
+**iotaCSS is now a monorepo and all individual repositories are part of it. Please open issues or PRs here: [https://github.com/iotacss/iotacss](https://github.com/iotacss/iotacss).**
+
 # Text Utility #
 
 The text utility contains helper classes for the CSS text-align property.
